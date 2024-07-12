@@ -1,0 +1,1293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 81vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./hero-bg.jpg);
+    background-attachment: fixed;
+}
+
+.maincont {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.extra {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(2, 59, 109);
+}
+
+.navbar {
+    width: 84.6%;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 7.2%;
+}
+
+.navmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 63px;
+    width: 13.3%;
+    background-color: rgb(0, 153, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-list {
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+.logo a {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.55px;
+}
+
+.collapse {
+    display: none;
+    padding-right: 10px;
+}
+
+.navbar-nav {
+    margin-left: 31%;
+}
+
+.nav-item {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 18px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.home {
+    margin-left: 0;
+    color: rgb(0, 153, 112) !important;
+}
+
+.color {
+    color: rgb(0, 153, 112);
+}
+
+.nav-link:hover {
+    color: rgb(0, 153, 112);
+}
+
+.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s all linear;
+    border-radius: 0%;
+    height: 220px;
+    width: 190px;
+    margin-left: -20px;
+}
+
+.dropdown-item {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-item:hover {
+    color: rgb(0, 153, 112);
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn {
+    border-radius: 40px;
+    background-color: rgb(0, 153, 112);
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    width: 133px;
+    height: 37px;
+}
+
+.imgcont {
+    height: auto;
+    width: 940px;
+    margin: auto;
+    margin-top: 120px;
+    padding: 1px;
+}
+
+.imgcont h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.55px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgcont p {
+    font-size: 15px;
+    font-weight: 500;
+    color: RGB(238, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 0.55px;
+}
+
+.imgcont .get {
+    height: 38px;
+    width: 170px;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    transition: 0.4s all linear;
+    cursor: pointer;
+}
+
+.get:hover {
+    background-color: rgb(0, 153, 112);
+    border: none;
+}
+
+.imgs {
+    height: 80px;
+    background-color: rgb(246, 246, 247);
+    display: flex;
+}
+
+.img-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    height: 40%;
+    width: 30%;
+}
+
+.text {
+    height: 57.5vh;
+}
+
+.text1 {
+    height: 100%;
+    width: 50%;
+}
+
+.text1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin-left: 14%;
+    margin-top: 7%;
+}
+
+.text1 p {
+    font-size: 24px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 14%;
+    margin-top: 20px;
+    width: 80%;
+    letter-spacing: 0.75px;
+}
+
+.p {
+    color: RGB(68, 68, 68);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    width: 85%;
+    letter-spacing: 0.55px;
+    margin-left: 10px;
+}
+
+.textcont {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.bi-check-all {
+    color: rgb(0, 153, 112);
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.textcont p {
+    font-size: 16px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    letter-spacing: 0.45px;
+}
+
+.textcont1 {
+    margin-top: 5px;
+}
+
+.textcont2 {
+    height: auto;
+}
+
+.textcont2 p {
+    width: 90%;
+}
+
+.p1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    letter-spacing: 0.45px;
+    width: 90%;
+}
+
+.num {
+    height: 155px;
+    background-color: rgb(0, 153, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num1 {
+    height: 50%;
+    width: 1315px;
+    display: flex;
+}
+
+.nums {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.num2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.num2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.num2 h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.learn {
+    height: 77.5vh;
+}
+
+.learn1 {
+    height: 100%;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn2 {
+    height: 100%;
+    width: 32%;
+}
+
+.learncont {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(0, 153, 112);
+    margin-top: 13%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learncont h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.learncont p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 85%;
+}
+
+.learnbtn {
+    height: 38px;
+    width: 170px;
+    background-color: rgb(26, 163, 127);
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s all linear;
+}
+
+.learnbtn:hover {
+    background-color: #fff;
+    color: rgb(0, 153, 112);
+}
+
+.learn3 {
+    width: 66%;
+    height: 100%;
+}
+
+.learn4 {
+    width: 100%;
+    height: 315px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn4cont {
+    height: 100%;
+    width: 31.5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.off {
+    color: rgb(0, 153, 112);
+    font-size: 35px;
+}
+
+.learn4cont h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.learn4cont p {
+    font-size: 15px;
+    font-weight: 400;
+    color: RGB(132, 132, 132);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 85%;
+    letter-spacing: 0.75px;
+    padding-bottom: 10px;
+}
+
+.call {
+    height: 280px;
+    background-image: url(./cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.call1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.744);
+
+}
+
+.call2 {
+    height: 100%;
+    width: 1300px;
+    margin: auto;
+    padding: 1px;
+}
+
+.call2 h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 57px;
+}
+
+.call2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    letter-spacing: 0.25px;
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.callbtn {
+    height: 45px;
+    width: 190px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    transition: 0.4s all linear;
+    cursor: pointer;
+}
+
+.callbtn:hover {
+    background-color: rgb(0, 153, 112);
+    border: none;
+}
+
+.service {
+    height: 90vh;
+    background-color: rgb(246, 246, 247);
+}
+
+.service1 {
+    height: 100%;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+.service2 {
+    height: 100%;
+    width: 34%;
+}
+
+.service2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    margin-top: 55px;
+    letter-spacing: 0.75px;
+}
+
+.line {
+    width: 50px;
+    border-bottom: 3px solid rgb(0, 153, 112);
+    margin-top: 20px;
+}
+
+.service2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    letter-spacing: 0.15px;
+    margin-top: 15px;
+}
+
+.service3 {
+    height: 100%;
+    width: 66%;
+}
+
+.service4 {
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service5 {
+    width: 48.5%;
+    height: 81%;
+    margin-top: 60px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ball {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 153, 112);
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.same {
+    font-size: 23px;
+    color: rgb(0, 153, 112);
+}
+
+.service5 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.service5 p {
+    font-size: 15px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.service5 {
+    transition: 0.4s all linear;
+}
+
+.service5:hover .ball {
+    background-color: rgb(0, 153, 112);
+    border: none;
+}
+
+.service5:hover .same {
+    color: white;
+}
+
+.service5:hover h2 {
+    color: rgb(0, 153, 112);
+}
+
+.service6 {
+    margin-top: 10px;
+}
+
+.portfolio {
+    height: 182vh;
+}
+
+.portfolio1 {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+
+.portfolio2 {
+    width: 100%;
+    height: 195px;
+}
+
+.portfolio2 .service2 {
+    width: 100%;
+}
+
+.portfolio2 .service2 p {
+    width: 100%;
+}
+
+.portfolio3 {
+    width: 100%;
+    height: 78.7%;
+}
+
+.words {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.word1 {
+    width: 21%;
+    font-size: 14px;
+    font-weight: 500;
+    color: RGB(68, 68, 68);
+    padding: 4px;
+    border-radius: 40px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s all linear;
+}
+
+.color1 {
+    background-color: rgb(0, 153, 112);
+    color: white;
+}
+
+.word1:hover {
+    background-color: rgb(0, 153, 112);
+    color: white;
+}
+
+.portfolio4 {
+    width: 100%;
+    height: 310px;
+}
+
+.boxcont {
+    height: 100%;
+    width: 97%;
+    overflow: hidden;
+}
+
+.boxcont:hover img {
+    transform: scale(1.2);
+    transition: 0.2s all linear;
+}
+
+.boxdiv {
+    background-color: rgba(0, 0, 0, 0.365);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.boxcont:hover .boxdiv {
+    visibility: visible;
+    opacity: 1;
+}
+
+.boxcont1 {
+    width: 100%;
+    height: 100%;
+}
+
+.boxcont1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 48%;
+}
+
+.boxcont1 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: RGBA(255, 255, 255, 0.7);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.boxcont2 {
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxcont2 i {
+    font-size: 28px;
+    color: white;
+}
+
+.boxcont2 i:hover {
+    color: rgb(0, 204, 149);
+}
+
+.test {
+    height: 82vh;
+    background-color: rgb(246, 246, 247);
+}
+
+.test1 {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    border: 2px solid red;
+    display: flex;
+}
+
+.test2 {
+    width: 66%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+.test3 {
+    width: 100%;
+    height: 75%;
+    border: 2px solid red;
+    margin-top: 85px;
+}
+
+.test4 {
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test5 {
+    height: 100%;
+    width: 47.2%;
+    border: 2px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 86%;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.test5 {
+    height: 90%;
+    width: 90%;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+.test5 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.testimg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 43px;
+}
+
+.testimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.test5 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.test5 h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: RGB(153, 153, 153);
+    text-align: center;
+}
+
+.team {
+    height: 120vh;
+}
+
+.team1 {
+    height: auto;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+.team2 {
+    height: 100%;
+    width: 66%;
+}
+
+.team3 {
+    margin-top: 55px;
+    height: 390px;
+}
+
+.team4 {
+    height: 100%;
+    width: 97.7%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1px;
+}
+
+.teamimg {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.teamimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.4s all linear;
+}
+
+.team4:hover .teamimg img {
+    transform: scale(1.1);
+
+}
+
+.team4 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: RGB(54, 52, 58);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team4 h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.line1 {
+    width: 12%;
+    border-bottom: 2px solid rgb(181, 179, 186);
+    margin: auto;
+}
+
+.team4 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teamsocail {
+    height: 35px;
+    width: 45%;
+    margin: auto;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.teamsocail1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(168, 165, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s all linear;
+}
+
+.teamsocail1:hover {
+    background-color: rgb(0, 153, 112);
+}
+
+.teamsocail1 i {
+    font-size: 14px;
+    color: white;
+}
+
+.team5 {
+    margin-top: 15px;
+}
+
+.contact {
+    height: 150vh;
+}
+
+.contact1 {
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.contact2 h2 {
+    margin-top: 78px;
+}
+
+.contact2 p {
+    width: 97%;
+}
+
+.contact3 {
+    height: 100%;
+    width: 66%;
+}
+
+.contactimg {
+    width: 100%;
+    height: 273px;
+    margin-top: 78px;
+}
+.contactimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.locat {
+    width: 100%;
+    height: 250px;
+    margin-top: 27px;
+}
+
+.locat1 {
+    height: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+}
+
+.locat2 {
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.locaticon {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(0, 153, 112);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaticon i {
+    font-size: 20px;
+    color: white;
+}
+
+.locat3 {
+    width: 300px;
+    height: 100%;
+}
+
+.locat3 h2 {
+    font-size: 23px;
+    font-weight: 600;
+    color: RGB(54, 52, 58);
+    margin-top: 23px;
+    margin-left: 3px;
+}
+
+.locat3 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: RGB(104, 100, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3px;
+}
+
+.localparent {
+    width: 100%;
+    height: 45%;
+    margin-top: 23px;
+    display: flex;
+}
+
+.locatdiv {
+    width: 97.5%;
+    display: flex;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.locattop {
+    box-shadow: none;
+    height: 100%;
+}
+
+.locatdiv1 {
+    margin-left: 2.5%;
+}
+
+.form {
+    width: 100%;
+    height: 392px;
+    margin-top: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form1 {
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    margin-top: 3.4%;
+}
+.get input{
+    height: 45px;
+    border-radius: 0% !important;
+    font-size: 14px !important;
+}
+textarea{
+    height: 130px;
+    margin-top: 27px !important;
+    width: 98% !important;
+    margin-left: 1%;
+    border: 1px solid rgb(222,226,230);
+}
+.btn1{
+    margin-left: 39%;
+    width: 170px;
+    margin-top: 8px;
+    height: 43px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(0, 204, 149);
+}
+.get:hover{
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 59vh;
+    background-color: rgb(249,248,249);
+}
+.footer1{
+    height: 79%;
+    width: 1300px;
+    margin: auto;
+}
+.foot1{
+    /* border: 2px solid red; */
+    padding: 1px;
+}
+.foot1 h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 55px;
+}
+.foot1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    width: 49%;
+    letter-spacing: 0.75px;
+    line-height: 25px;
+}
+.foot1 h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: RGB(119, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+.com{
+    margin-top: 0 !important;
+}
+.foot1 h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+.foot1 h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.foot1 span{
+    color: rgb(0, 153, 112);
+    font-size: 20px;
+}
+.foot1 h5:hover{
+    color: rgb(0, 153, 112);
+}
+.our h4{
+    margin-left: 123px !important;
+}
+.our p{
+    font-size: 15px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 123px;
+    width: 80%;
+    margin-top: 20px;
+}
+.sub{
+    height: 40px;
+    width: 76%;
+    border: 1px solid rgb(222,226,230);
+    margin-left: 123px;
+    border-radius: 40px;
+    margin-top: 25px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.sub input{
+    height: 80%;
+    width: 73%;
+    border: none;
+    margin-left: 10px;
+}
+.sub1{
+    height: 100%;
+    width: 27%;
+    background-color: rgb(0, 153, 112);
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer2{
+    width: 100%;
+    height: 21%;
+    background-color: rgb(241,240,242);
+}
+.foot2{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: RGB(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20%;
+    margin-top: 20px;
+}
+.black{
+    color: black;
+    font-weight: 500;
+}
+.green{
+    color: rgb(0, 204, 149);
+    cursor: pointer;
+}
+.green:hover{
+    color: rgb(0, 153, 112);
+}
+.footsocail{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footsocail1{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(0, 153, 112);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footsocail1 i{
+    font-size: 14px;
+    color: white;
+}
