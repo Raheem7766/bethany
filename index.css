@@ -1008,7 +1008,8 @@ swiper-slide img {
     height: 273px;
     margin-top: 78px;
 }
-.contactimg img{
+
+.contactimg img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -1107,19 +1108,22 @@ swiper-slide img {
     margin: auto;
     margin-top: 3.4%;
 }
-.get input{
+
+.get input {
     height: 45px;
     border-radius: 0% !important;
     font-size: 14px !important;
 }
-textarea{
+
+textarea {
     height: 130px;
     margin-top: 27px !important;
     width: 98% !important;
     margin-left: 1%;
-    border: 1px solid rgb(222,226,230);
+    border: 1px solid rgb(222, 226, 230);
 }
-.btn1{
+
+.btn1 {
     margin-left: 39%;
     width: 170px;
     margin-top: 8px;
@@ -1128,31 +1132,38 @@ textarea{
     border: none;
     background-color: rgb(0, 204, 149);
 }
-.get:hover{
+
+.get:hover {
     background-color: white;
+    color: black;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 59vh;
-    background-color: rgb(249,248,249);
+    background-color: rgb(249, 248, 249);
 }
-.footer1{
+
+.footer1 {
     height: 79%;
     width: 1300px;
     margin: auto;
 }
-.foot1{
+
+.foot1 {
     /* border: 2px solid red; */
     padding: 1px;
 }
-.foot1 h2{
+
+.foot1 h2 {
     font-size: 28px;
     font-weight: 500;
     color: RGB(68, 68, 68);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 55px;
 }
-.foot1 p{
+
+.foot1 p {
     font-size: 14px;
     font-weight: 400;
     color: RGB(68, 68, 68);
@@ -1162,17 +1173,20 @@ textarea{
     letter-spacing: 0.75px;
     line-height: 25px;
 }
-.foot1 h3{
+
+.foot1 h3 {
     font-size: 14px;
     font-weight: 500;
     color: RGB(119, 119, 119);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 30px;
 }
-.com{
+
+.com {
     margin-top: 0 !important;
 }
-.foot1 h4{
+
+.foot1 h4 {
     font-size: 16px;
     font-weight: 700;
     color: RGB(68, 68, 68);
@@ -1180,7 +1194,8 @@ textarea{
     margin-top: 55px;
     margin-left: 5px;
 }
-.foot1 h5{
+
+.foot1 h5 {
     font-size: 14px;
     font-weight: 400;
     color: RGB(68, 68, 68);
@@ -1189,17 +1204,21 @@ textarea{
     margin-left: 10px;
     cursor: pointer;
 }
-.foot1 span{
+
+.foot1 span {
     color: rgb(0, 153, 112);
     font-size: 20px;
 }
-.foot1 h5:hover{
+
+.foot1 h5:hover {
     color: rgb(0, 153, 112);
 }
-.our h4{
+
+.our h4 {
     margin-left: 123px !important;
 }
-.our p{
+
+.our p {
     font-size: 15px;
     font-weight: 400;
     color: RGB(68, 68, 68);
@@ -1208,10 +1227,11 @@ textarea{
     width: 80%;
     margin-top: 20px;
 }
-.sub{
+
+.sub {
     height: 40px;
     width: 76%;
-    border: 1px solid rgb(222,226,230);
+    border: 1px solid rgb(222, 226, 230);
     margin-left: 123px;
     border-radius: 40px;
     margin-top: 25px;
@@ -1219,13 +1239,15 @@ textarea{
     display: flex;
     align-items: center;
 }
-.sub input{
+
+.sub input {
     height: 80%;
     width: 73%;
     border: none;
     margin-left: 10px;
 }
-.sub1{
+
+.sub1 {
     height: 100%;
     width: 27%;
     background-color: rgb(0, 153, 112);
@@ -1239,19 +1261,22 @@ textarea{
     align-items: center;
     cursor: pointer;
 }
-.footer2{
+
+.footer2 {
     width: 100%;
     height: 21%;
-    background-color: rgb(241,240,242);
+    background-color: rgb(241, 240, 242);
 }
-.foot2{
+
+.foot2 {
     width: 1300px;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.foot2 p{
+
+.foot2 p {
     font-size: 14px;
     font-weight: 400;
     color: RGB(68, 68, 68);
@@ -1259,25 +1284,30 @@ textarea{
     width: 20%;
     margin-top: 20px;
 }
-.black{
+
+.black {
     color: black;
     font-weight: 500;
 }
-.green{
+
+.green {
     color: rgb(0, 204, 149);
     cursor: pointer;
 }
-.green:hover{
+
+.green:hover {
     color: rgb(0, 153, 112);
 }
-.footsocail{
+
+.footsocail {
     height: 100%;
     width: 17%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footsocail1{
+
+.footsocail1 {
     height: 35px;
     width: 35px;
     background-color: rgb(0, 153, 112);
@@ -1287,7 +1317,8 @@ textarea{
     align-items: center;
     cursor: pointer;
 }
-.footsocail1 i{
+
+.footsocail1 i {
     font-size: 14px;
     color: white;
 }
